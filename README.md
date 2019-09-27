@@ -1,2 +1,2 @@
 # AEDA
-all files off algorithms and data structures - 2º MIEIC
+All files of Algorithms and Data Structures - 2º MIEIC
