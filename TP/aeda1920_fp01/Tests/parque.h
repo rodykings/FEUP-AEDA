@@ -11,11 +11,12 @@ public:
 };
 
 class ParqueEstacionamento {
-	unsigned int vagas;
-	const unsigned int lotacao;
-	vector<InfoCartao> clientes;
-	const unsigned int numMaximoClientes;
+
 public:
+    unsigned int vagas;
+    const unsigned int lotacao;
+    vector<InfoCartao> clientes;
+    const unsigned int numMaximoClientes;
 	ParqueEstacionamento(unsigned int lot, unsigned int nMaxCli);
 	bool adicionaCliente(const string & nome);
 	bool retiraCliente(const string & nome);

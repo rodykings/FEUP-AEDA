@@ -15,6 +15,7 @@ TEST(test_1, a_AbrirParque){
     ASSERT_EQ(6, p1.getNumMaximoClientes());
 }
 
+
 TEST(test_1, b_AdicionarCliente){
     ParqueEstacionamento p1(3, 5);
     // Testa se deixa adicionar um novo cliente
@@ -30,6 +31,8 @@ TEST(test_1, b_AdicionarCliente){
     // Testa se retorna -1 caso o cliente n�o exista
     ASSERT_EQ(-1, p1.posicaoCliente("Joana"));
 }
+
+
 
 TEST(test_1, c_EntrarParque){
     ParqueEstacionamento p1(3, 5);
@@ -92,4 +95,22 @@ TEST(test_1, f_LugaresLotacaoParque){
     ASSERT_EQ(2, p1.getNumLugaresOcupados());
     // Testa se o o n�mero de clientes registados no parque est� correcto
     ASSERT_EQ(3, p1.getNumClientesAtuais());
+}
+
+TEST(test_1, operador_mais_igual){
+    ParqueEstacionamento p1(3, 5);
+    p1.adicionaCliente("Joao");
+    p1.adicionaCliente("Maria");
+    p1.adicionaCliente("Antonio");
+    ParqueEstacionamento p2(3, 5);
+    p2.adicionaCliente("Pedro");
+    p2.adicionaCliente("Carlos");
+    p2.adicionaCliente("Cesar");
+    p2.adicionaCliente("Hugo");
+    p1+=p2;
+    //Testa se a lotação aumentou quando se junta os parques
+    ASSERT_EQ(p1.lotacao, 6);
+
+
+
 }
