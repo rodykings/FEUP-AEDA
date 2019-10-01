@@ -2,8 +2,8 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="aeda1920_fp01" targetName="gtest" />
       <config projectName="aeda1920_fp01" targetName="aeda1920_fp01" />
+      <config projectName="aeda1920_fp01" targetName="gtest" />
       <config projectName="aeda1920_fp01" targetName="gmock_main" />
       <config projectName="aeda1920_fp01" targetName="gmock" />
       <config projectName="aeda1920_fp01" targetName="gtest_main" />
@@ -16,13 +16,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc2438a8-2839-43a7-8d22-76f8200c4757" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/parque.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/parque.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/parque.h" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/parque.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/tests.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/aeda1920_fp01.dir/Tests/parque.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/aeda1920_fp01.dir/Tests/parque.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/aeda1920_fp01.dir/Tests/tests.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/aeda1920_fp01.dir/Tests/tests.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/aeda1920_fp01" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/aeda1920_fp01" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +36,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
@@ -103,7 +99,10 @@
       <workItem from="1569602657320" duration="4374000" />
       <workItem from="1569607187678" duration="61000" />
       <workItem from="1569676963695" duration="606000" />
-      <workItem from="1569762124340" duration="2246000" />
+      <workItem from="1569762124340" duration="2372000" />
+      <workItem from="1569846324428" duration="181000" />
+      <workItem from="1569848061677" duration="32000" />
+      <workItem from="1569935083870" duration="119000" />
     </task>
     <servers />
   </component>
