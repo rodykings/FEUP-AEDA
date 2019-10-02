@@ -516,12 +516,6 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/home/rodykings/Desktop/1SEMESTRE/AEDA/TP/aeda1920_fp02/Tests/frota.cpp
-frota.h
-/home/rodykings/Desktop/1SEMESTRE/AEDA/TP/aeda1920_fp02/Tests/frota.h
-string
--
-
 /home/rodykings/Desktop/1SEMESTRE/AEDA/TP/aeda1920_fp02/Tests/frota.h
 vector
 -
@@ -538,19 +532,7 @@ frota.h
 string
 -
 
-/home/rodykings/Desktop/1SEMESTRE/AEDA/TP/aeda1920_fp02/Tests/veiculo.cpp
-veiculo.h
-/home/rodykings/Desktop/1SEMESTRE/AEDA/TP/aeda1920_fp02/Tests/veiculo.h
-iostream
--
-
 /home/rodykings/Desktop/1SEMESTRE/AEDA/TP/aeda1920_fp02/Tests/veiculo.h
 string
 -
-
-/home/rodykings/Desktop/1SEMESTRE/AEDA/TP/aeda1920_fp02/main.cpp
-gtest/gtest.h
-/home/rodykings/Desktop/1SEMESTRE/AEDA/TP/aeda1920_fp02/gtest/gtest.h
-gmock/gmock.h
-/home/rodykings/Desktop/1SEMESTRE/AEDA/TP/aeda1920_fp02/gmock/gmock.h
 
