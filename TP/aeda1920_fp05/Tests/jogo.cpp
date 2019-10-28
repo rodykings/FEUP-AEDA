@@ -7,6 +7,7 @@
 #include <ctime>
 #include <iostream>
 #include <utility>
+
 using namespace std;
 
 
@@ -118,16 +119,30 @@ void Jogo::setCriancasJogo(const list<Crianca>& l1)
 // a implementar
 bool Jogo::operator==(Jogo& j2)
 {
-	if(this->criancas == j2.criancas)
-	    return true;
-	return false;
+    if(j2.criancas != criancas)
+        return false;
+    return true;
 
 }
 
 // a implementar
 list<Crianca> Jogo::baralha() const
 {
+    list<Crianca> c = this->criancas;
+    list<Crianca> nova;
+    size_t initialSize = this->criancas.size();
 
-    this->criancas.size();
-    rand(0,20);
+    list<Crianca>::iterator it = c.begin();
+
+    while(nova.size() != initialSize){
+        it = c.begin();
+        int randNum = rand()%(c.size()-1 + 1) + 1;
+        for(randNum; 1 < randNum;randNum--){
+            it.operator++();
+        }
+        nova.push_back(*it);
+        c.erase(it);
+    }
+    return nova;
+
 }
