@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rodykings/Desktop/1SEMESTRE/AEDA/TESTES/aeda1819_ci1_googleTest/Tests/Account.cpp
+iostream
+-
+Account.h
+/home/rodykings/Desktop/1SEMESTRE/AEDA/TESTES/aeda1819_ci1_googleTest/Tests/Account.h
+
+/home/rodykings/Desktop/1SEMESTRE/AEDA/TESTES/aeda1819_ci1_googleTest/Tests/Account.h
+string
+-
+iostream
+-
+

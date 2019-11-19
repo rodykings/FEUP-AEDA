@@ -13,7 +13,7 @@
 
 using testing::Eq;
 
-
+/*
 TEST(test_1, StackExt_FindMin){
     StackExt<int> s1;
     // Teste ao empty()
@@ -75,6 +75,7 @@ TEST(test_1, StackExt_FindMin){
     EXPECT_EQ(true, isConstant(elapsedTime, size, 10));
 }
 
+ */
 TEST(test_2, a_ConstructorCliente){
     srand(time(NULL));
     Cliente c;

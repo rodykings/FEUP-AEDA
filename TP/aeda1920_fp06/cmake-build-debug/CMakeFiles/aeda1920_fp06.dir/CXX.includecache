@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rodykings/Desktop/1SEMESTRE/AEDA/TP/aeda1920_fp06/Tests/balcao.cpp
+queue
+-
+cstdlib
+-
+balcao.h
+/home/rodykings/Desktop/1SEMESTRE/AEDA/TP/aeda1920_fp06/Tests/balcao.h
+exceptions.h
+/home/rodykings/Desktop/1SEMESTRE/AEDA/TP/aeda1920_fp06/Tests/exceptions.h
+
+/home/rodykings/Desktop/1SEMESTRE/AEDA/TP/aeda1920_fp06/Tests/balcao.h
+iostream
+-
+queue
+-
+
+/home/rodykings/Desktop/1SEMESTRE/AEDA/TP/aeda1920_fp06/Tests/exceptions.h
+string
+-
+
