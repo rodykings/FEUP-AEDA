@@ -1,24 +1,21 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
 Change Dir: /home/rodykings/Desktop/1SEMESTRE/AEDA/TP/aeda1920_fp07/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_92f64/fast && /usr/bin/make -f CMakeFiles/cmTC_92f64.dir/build.make CMakeFiles/cmTC_92f64.dir/build
+Run Build Command(s):/usr/bin/make cmTC_17f96/fast && /usr/bin/make -f CMakeFiles/cmTC_17f96.dir/build.make CMakeFiles/cmTC_17f96.dir/build
 make[1]: Entering directory '/home/rodykings/Documents/FEUP/2ANO/1SEMESTRE/AEDA/TP/aeda1920_fp07/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_92f64.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_92f64.dir/src.c.o   -c /home/rodykings/Desktop/1SEMESTRE/AEDA/TP/aeda1920_fp07/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_92f64
-/snap/clion/98/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92f64.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_92f64.dir/src.c.o  -o cmTC_92f64 
-CMakeFiles/cmTC_92f64.dir/src.c.o: In function `main':
-src.c:(.text+0x3e): undefined reference to `pthread_create'
-src.c:(.text+0x4a): undefined reference to `pthread_detach'
-src.c:(.text+0x5b): undefined reference to `pthread_join'
-src.c:(.text+0x6f): undefined reference to `pthread_atfork'
+Building C object CMakeFiles/cmTC_17f96.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_17f96.dir/src.c.o   -c /home/rodykings/Desktop/1SEMESTRE/AEDA/TP/aeda1920_fp07/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_17f96
+/snap/clion/98/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17f96.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_17f96.dir/src.c.o  -o cmTC_17f96 
+/usr/bin/ld: CMakeFiles/cmTC_17f96.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_92f64.dir/build.make:86: recipe for target 'cmTC_92f64' failed
-make[1]: *** [cmTC_92f64] Error 1
+make[1]: *** [CMakeFiles/cmTC_17f96.dir/build.make:87: cmTC_17f96] Error 1
 make[1]: Leaving directory '/home/rodykings/Documents/FEUP/2ANO/1SEMESTRE/AEDA/TP/aeda1920_fp07/cmake-build-debug/CMakeFiles/CMakeTmp'
-Makefile:121: recipe for target 'cmTC_92f64/fast' failed
-make: *** [cmTC_92f64/fast] Error 2
+make: *** [Makefile:121: cmTC_17f96/fast] Error 2
 
 
 Source file was:
@@ -44,20 +41,18 @@ int main(void)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/rodykings/Desktop/1SEMESTRE/AEDA/TP/aeda1920_fp07/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_0f114/fast && /usr/bin/make -f CMakeFiles/cmTC_0f114.dir/build.make CMakeFiles/cmTC_0f114.dir/build
+Run Build Command(s):/usr/bin/make cmTC_ebc8c/fast && /usr/bin/make -f CMakeFiles/cmTC_ebc8c.dir/build.make CMakeFiles/cmTC_ebc8c.dir/build
 make[1]: Entering directory '/home/rodykings/Documents/FEUP/2ANO/1SEMESTRE/AEDA/TP/aeda1920_fp07/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0f114.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_0f114.dir/CheckFunctionExists.c.o   -c /snap/clion/98/bin/cmake/linux/share/cmake-3.15/Modules/CheckFunctionExists.c
-Linking C executable cmTC_0f114
-/snap/clion/98/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f114.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_0f114.dir/CheckFunctionExists.c.o  -o cmTC_0f114 -lpthreads 
+Building C object CMakeFiles/cmTC_ebc8c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_ebc8c.dir/CheckFunctionExists.c.o   -c /snap/clion/98/bin/cmake/linux/share/cmake-3.15/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ebc8c
+/snap/clion/98/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ebc8c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_ebc8c.dir/CheckFunctionExists.c.o  -o cmTC_ebc8c -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_0f114.dir/build.make:86: recipe for target 'cmTC_0f114' failed
-make[1]: *** [cmTC_0f114] Error 1
+make[1]: *** [CMakeFiles/cmTC_ebc8c.dir/build.make:87: cmTC_ebc8c] Error 1
 make[1]: Leaving directory '/home/rodykings/Documents/FEUP/2ANO/1SEMESTRE/AEDA/TP/aeda1920_fp07/cmake-build-debug/CMakeFiles/CMakeTmp'
-Makefile:121: recipe for target 'cmTC_0f114/fast' failed
-make: *** [cmTC_0f114/fast] Error 2
+make: *** [Makefile:121: cmTC_ebc8c/fast] Error 2
 
 
 

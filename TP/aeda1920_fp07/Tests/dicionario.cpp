@@ -1,6 +1,4 @@
-#include <iostream>
 #include <string>
-#include <fstream>
 #include "dicionario.h"
 #include "bst.h"
 
@@ -12,35 +10,21 @@ BST<PalavraSignificado> Dicionario::getPalavras() const {
 
 //a alterar
 bool PalavraSignificado::operator < (const PalavraSignificado &ps1) const {
-     return true;
+     return this->palavra < ps1.palavra;
 }
 
 //a alterar
 void Dicionario::lerDicionario(ifstream &fich)
 {
 
-    string line;
-    size_t counter = 0;
+    string palavra = "";
+    string significado = "";
 
-    string palavra;
-    string significado;
-
-
-
-        while(getline(fich, line)){
-            switch(counter){
-                case 0:
-                    palavra = line;
-                    break;
-                case 1:
-                    significado = line;
-                    PalavraSignificado p(palavra, significado);
-                    this->palavras.insert(p);
-                    counter = 0;
-                    break;
-            }counter++;
-
-        }
+    while(getline(fich, palavra)){
+        getline(fich, significado);
+        PalavraSignificado p(palavra, significado);
+        this->palavras.insert(p);
+    }
 
 
 }
